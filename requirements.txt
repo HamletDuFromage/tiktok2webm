@@ -1,2 +1,4 @@
 PythonVideoConverter==1.0.3
 TikTokApi==3.3.9
+six==1.15.0
+webm==0.12.1

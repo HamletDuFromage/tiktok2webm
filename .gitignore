@@ -1,0 +1,10 @@
+*.mp4
+*.webm
+*.zip
+*.exe
+*.spec
+tmp/
+build/
+dist/
+__pycache__/
+

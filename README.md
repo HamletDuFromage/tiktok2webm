@@ -1,13 +1,28 @@
 # tiktok2webm
 Downloads Tik Toks from urls and converts them to WebMs. Written for 4chan. Can create both soundless and with sound WebMs
 
-## Requirements
-Requires ffmpeg to be installed. Also required two python modules to be installed
+# Setup
+## Cross platform
+Requires ffmpeg to be installed. Also required some python modules to be installed
 ```
 $ pip install -r requirements.txt
 ```
+The script can then be ran from the CLI
+```
+python3 tiktok2webm.py URL 
+```
+The first run might take a while.
 
-## Usage
+## Compiled Windows binary
+A Windows binary is provided, and with it isn't necessary to setup a Python environment. It still requires ffmpeg to be installed.
+
+Open `cmd.exe` and execute 
+```
+tiktok2webm.exe URL 
+```
+You can also drag and drop the `.exe` in the terminal, but please note that the WebMs will be downloaded in the folder your terminal is open in.
+
+# Usage
 ```
 $ python3 tiktok2webm.py --help
 usage: tiktok2webm.py [-h] [-a] [-q QUALITY] [-b BITRATE] [-w WIDTH] url [url ...]

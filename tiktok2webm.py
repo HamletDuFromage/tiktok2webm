@@ -41,7 +41,7 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('url', nargs='+', help='The URL of the Tik Tok')
+    parser.add_argument('url', nargs='+', help='The URLs of the Tik Tok. Accept multiple URLs')
     parser.add_argument('-a', '--audio', action="store_true", help='Enables audio for the WebM')
     parser.add_argument('-q', '--quality', type=int, help='Quality of the webm. From 4 (best) to 63 (worst). Defaults to 20.')
     parser.add_argument('-b', '--bitrate', type=int, help='Bitrate. From 16 (min) to 15000 (max). Defaults to 1000.')
