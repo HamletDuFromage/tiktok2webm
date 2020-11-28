@@ -1,3 +1,5 @@
+Tik tok now requires to be logged in in order to download videos, so this script doesn't currently work. Let me know if you're interested in a fix.
+
 # tiktok2webm
 Downloads Tik Toks from urls and converts them to WebMs. Written for 4chan. Can create both soundless and with sound WebMs
 
